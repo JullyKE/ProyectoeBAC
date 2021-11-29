@@ -216,16 +216,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &993192615 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7987968937871928305, guid: ecdddcaae1163436893bd5b694ce0654, type: 3}
-  m_PrefabInstance: {fileID: 7987968937780599517}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1025925121 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8517384364612918542, guid: 89732b970c2d94289a682e524b8acdcf, type: 3}
-  m_PrefabInstance: {fileID: 8517384364370553982}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1485364310
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,10 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfee10419f6f74a18bc2ada665b9d080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabCubo: {fileID: 1025925121}
-  listaDeCubos: []
-  factorDeEscalamiento: 0.5
-  numCubos: 0
+  PrefabCubo: {fileID: 8517384364612918542, guid: 89732b970c2d94289a682e524b8acdcf, type: 3}
 --- !u!4 &1503535351
 Transform:
   m_ObjectHideFlags: 0
@@ -370,10 +357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d2b83b96baf4c75b247966247b5603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabCapsula: {fileID: 993192615}
-  listaDeCapsula: []
-  factorDeEscalamiento: 0.15
-  numCapsula: 0
+  PrefabCapsula: {fileID: 7987968937871928305, guid: ecdddcaae1163436893bd5b694ce0654, type: 3}
 --- !u!114 &1503535353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,15 +370,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6872d0fa41f474063a003260195c9eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabEsfera: {fileID: 1529762273}
+  PrefabEsfera: {fileID: 1381561184932845699, guid: dbb6211effec740dfb179b663cd94a68, type: 3}
   listaDeEsferas: []
   factorDeEscalamiento: 0.25
   numEsfera: 0
---- !u!1 &1529762273 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1381561184932845699, guid: dbb6211effec740dfb179b663cd94a68, type: 3}
-  m_PrefabInstance: {fileID: 1381561183278483937}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1381561183278483937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -563,6 +542,10 @@ PrefabInstance:
     - target: {fileID: 8517384364612918542, guid: 89732b970c2d94289a682e524b8acdcf, type: 3}
       propertyPath: m_Name
       value: Cubo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517384364612918542, guid: 89732b970c2d94289a682e524b8acdcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89732b970c2d94289a682e524b8acdcf, type: 3}
