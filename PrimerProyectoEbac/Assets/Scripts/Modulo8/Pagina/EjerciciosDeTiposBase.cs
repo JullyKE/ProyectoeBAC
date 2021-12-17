@@ -51,6 +51,7 @@ public class EjerciciosDeTiposBase : MonoBehaviour
         stringNumero += numero1;
         Debug.Log("<color=green>Numero en string</color>" + stringNumero);
 
+        
         int pos = 0;
         foreach(char l in palabra)
         {
